@@ -40,7 +40,7 @@ const command = CMAKE_JS_FULL_PATH;
 const args = [
   (REBUILD ? 'reconfigure' : 'configure'),
   '--arch=x64',
-  '--CDnapi_build_version=3',
+  '--CDnapi_build_version=6',
   `--CDCMAKE_BUILD_TYPE=${CONFIG}`,
 ];
 if (ONNXRUNTIME_BUILD_DIR && typeof ONNXRUNTIME_BUILD_DIR === 'string') {
